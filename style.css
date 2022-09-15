@@ -1,14 +1,54 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Henny+Penny&display=swap');
+
+body{
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    color: rgb(3, 2 , 10);
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 20px;
 }
+
+
 
 main#container {
+    background-image: linear-gradient(to bottom, rgb(133, 104, 160) 0%, rgb(93, 61, 110) 100%);
+    border: 30px solid rgb(93, 61, 110);
 }
 
-h1.titulo {
+.titulo {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-top: 3px dotted rgb(46, 11, 11);
+    border-bottom: 3px dotted rgb(46,11,11);
+    color:rgb(0,0,0);
+    background-color: rgb(133, 104, 160);
+    font-family: 'henny penny';
+    font-size: 45px;
 }
 
-p.frase {
+.frase {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    border-top: 5px dotted rgb(12, 19, 39);
+    border-bottom: 5px dotted rgb(12,19,39);
+    font-family: 'bold';
+    line-height: 1.3rem;
+    color: rgb(80, 8, 8);
+    background-color: rgb(133, 104, 160);
+    font-size: 25px;
 }
 
-p.autor {
+.autor {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: rgb(33, 107, 126);
+    font-family: 'italic';
+    font-size: 30px;
+}
+.nome {
+color: yellow;
 }
